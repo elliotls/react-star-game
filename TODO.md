@@ -1,3 +1,2 @@
-1. Fix tests
+1. Clean repository
 2. Change theming
-3. Clean repository

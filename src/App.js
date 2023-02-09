@@ -93,7 +93,7 @@ const Game = (props) => {
   }
   
   const onNumberClick = (number, currentStatus) => {
-    if (gameStatus != 'active' || currentStatus == 'used') {
+    if (gameStatus !== 'active' || currentStatus === 'used') {
       return;
     }
     
@@ -178,6 +178,4 @@ const utils = {
 };
 
 
-// *** The React 18 way:
-// root.render(<StarMatch />);
 export default StarMatch

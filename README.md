@@ -1,6 +1,6 @@
 # React Star Game
 
-Test
+Small React game using React side effect hooks
 
 ## Available Scripts
 
