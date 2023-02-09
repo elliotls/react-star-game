@@ -14,7 +14,10 @@ const StarsDisplay = props => (
 const PlayNumber = props => (
   <button 
     className="number" 
-    style={{ backgroundColor: colors[props.status]}} 
+    style={{ 
+      backgroundColor: colors[props.status],
+      border: colors[props.status],
+    }} 
     onClick={() => props.onClick(props.number, props.status)}
   >
     {props.number}
@@ -31,6 +34,7 @@ const PlayAgain = props => (
     </div>
     <button
       onClick={() => props.onClick()}
+      className='button-play-again'
     >
       Play Again</button>
   </div>
